@@ -21,4 +21,8 @@ public class CalculatorService {
     public boolean areClose(double a, double b) {
         return Math.abs(a - b) < 0.000001;
     }
+
+    public double addDoubles(double v, double v1) {
+        return v;
+    }
 }
